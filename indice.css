@@ -31,12 +31,14 @@ a{
     text-shadow: black 1px 1px 1px;
 }
 
-div a:nth-child(1),div a:nth-child(2),div a:nth-child(3){
-    background-color: rgb(58, 58, 237);
+div a:nth-child(1){
+    background-color: red;
 }
-
+div a:nth-child(2),div a:nth-child(3){
+    background-color: yellow;
+}
 div a:nth-child(4),div a:nth-child(5),div a:nth-child(6){
-    background-color: #2ca02c;
+    background-color: red;
 }
 
 footer{
